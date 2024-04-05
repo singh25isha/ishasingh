@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-color: rgb(500, 500, 500);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 40px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    height: 100px;
+}
+
+nav ul {
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-items: right;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    position: relative;
+    color: black;
+
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.left {
+    margin-right: 25px;
+    position: relative;
+    font-size: 3rem;
+}
+
+.firstSection {
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 10px;
+}
+
+.firstSection>div {
+    position: relative;
+    width: 80%;
+}
+
+.leftSection {
+
+    position: relative;
+    font-size: 3rem;
+    margin: 30px 35px;
+}
+
+.firstSection .leftSection .btn {
+    font-size: 1.2rem;
+}
+
+#element {
+    position: relative;
+    color: rgb(10, 10, 10)
+}
+
+.text-gray {
+    position: relative;
+    color: black;
+}
+
+.SecondSection {
+    position: relative;
+    position: relative;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.SecondSection h1 {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.SecondSection .box {
+    position: relative;
+    background: black;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.SecondSection .vertical {
+
+    position: relative;
+    height: 93px;
+    width: 1px;
+    background-color: black;
+    margin: 0 120px;
+}
+
+main hr {
+
+    position: relative;
+    border: 0;
+    background: #070708;
+    height: 1.2px;
+    margin: 40px 50px;
+}
+
+.intro {
+
+    position: relative;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.image-top {
+
+    position: relative;
+    width: 23px;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+
+    position: relative;
+    margin-top: -30px;
+    margin-left: -50px;
+    top: 100px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    margin-top: 10px;
+    margin-left: -160px;
+    top: 140px;
+    color: black;
+    font-size: 9px;
+}
+
+.foot {
+    top: 50px;
+}
+
+
+footer {
+    font-size: 0.9rem;
+    margin: 20px;
+    color: #0a0a0a;
+    padding: 0 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+    font-size: 0.8rem;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    margin-left: 10px;
+}
+
+.footer-center,
+.footer-right {
+    margin-right: 10px;
+}
+
+.footer-left h3,
+.footer-center h3 {
+    color: #000000;
+}
+
+.footer-right h3 {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 1px;
+}
+
+a.footer-center a {
+    margin: 1px;
+    color: #050404;
+}
+
+.footer-center p {
+    margin: 1px;
+    color: #080808;
+}
+
+.footer-right .social-links {
+    margin: 1px;
+    margin-top: 10px;
+
+}
+
+.footer-right .social-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #080808;
+    padding-top: 10px;
+}
+
+.no-underline {
+    color: #000000;
+    text-decoration: none;
+}
+
+.education {
+    margin-top: 100px;
+}
+
+.education h1 {
+
+    margin-left: 40px;
+    font-size: 2.2rem;
+}
+
+.education-item h5 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.education-item {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.education-item p {
+    margin: 0;
+    color: #343434;
+}
+
+.gap {
+    margin-bottom: 6em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.linkedin-icon {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(500, 500, 500);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.course {
+    margin-left: 15px;
+}
